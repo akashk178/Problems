@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Studio Learning Portal</title>
+    <link rel="stylesheet" href="assignment.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <h1 class="main-title">Creative Design Studio</h1>
+      <p class="subtitle">Explore, Design & Innovate with HTML & CSS</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a href="#html-basics">Getting Started</a></li>
+        <li><a href="#css-styling">Design Techniques</a></li>
+        <li><a href="#media-section">Visual Gallery</a></li>
+        <li><a href="#data-section">Content Presentation</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- HTML Basics Section -->
+      <section id="html-basics" class="section">
+        <h2 class="section-title">Getting Started with Markup</h2>
+
+        <div class="content-box">
+          <h3>Essential Elements</h3>
+          <p>
+            Begin your creative journey with fundamental tags like
+            <strong>&lt;h1&gt;</strong> for headings and
+            <em>&lt;p&gt;</em> for paragraphs.
+          </p>
+          <p>
+            Emphasize your text using <mark>highlight</mark> and present snippets like
+            <code>&lt;header&gt;</code> using inline code.
+          </p>
+          <blockquote class="quote">
+            "Design is intelligence made visible — start with the structure, then beautify."
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- CSS Styling Section -->
+      <section id="css-styling" class="section">
+        <h2 class="section-title">Design Techniques</h2>
+
+        <div class="styling-demo">
+          <div class="box-model-demo">
+            <h4>Understanding the Box</h4>
+            <p>
+              Visualize how each element is spaced with margins, borders,
+              padding, and actual content. It’s like framing your artwork.
+            </p>
+          </div>
+
+          <div class="position-demo">
+            <h4>Creative Positioning</h4>
+            <p>
+              Use relative and absolute positioning to artistically place
+              elements in your layout — like placing decorations on a canvas.
+            </p>
+            <div class="positioned-element">Fixed Spot</div>
+            <div class="relative-container">
+              <div class="absolute-element">Floating Element</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Media Section -->
+      <section id="media-section" class="section">
+        <h2 class="section-title">Visual Gallery</h2>
+
+        <div class="media-container">
+          <!-- Image Section -->
+          <div class="media-item">
+            <h3>Artwork Samples</h3>
+            <p>Enhance your website with compelling images and illustrations.</p>
+            <div class="image-gallery">
+              <img
+                src="designer_avatar.png"
+                alt="Creative Avatar"
+                class="gallery-image"
+              />
+              <img
+                src="brush_icon.png"
+                alt="Brush Icon"
+                class="gallery-image"
+              />
+            </div>
+          </div>
+
+          <!-- Video Section -->
+          <div class="media-item">
+            <h3>Learning in Motion</h3>
+            <p>Short clips are a great way to learn design techniques visually.</p>
+            <video class="video-player" controls>
+              <source
+                src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <!-- Audio Section -->
+          <div class="media-item">
+            <h3>Audio Insights</h3>
+            <p>Listen to tips and tricks from top web designers around the world.</p>
+            <audio class="audio-player" controls>
+              <source
+                src="https://www.soundjay.com/buttons/sounds/button-16.mp3"
+                type="audio/mp3"
+              />
+              Your browser does not support the audio tag.
+            </audio>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data Display Section -->
+      <section id="data-section" class="section">
+        <h2 class="section-title">Content Presentation</h2>
+
+        <!-- Lists -->
+        <div class="lists-container">
+          <div class="list-item">
+            <h3>Checklist</h3>
+            <ul class="custom-list">
+              <li>Plan Your Layout</li>
+              <li>Choose Your Colors</li>
+              <li>Add Visual Media</li>
+              <li>Make It Responsive</li>
+            </ul>
+          </div>
+
+          <div class="list-item">
+            <h3>Step-by-Step</h3>
+            <ol class="custom-list">
+              <li>Write HTML structure</li>
+              <li>Apply CSS styles</li>
+              <li>Preview your design</li>
+              <li>Publish and share</li>
+            </ol>
+          </div>
+
+          <div class="list-item">
+            <h3>Glossary</h3>
+            <dl class="definition-list">
+              <dt>Element</dt>
+              <dd>A component of HTML such as headings or paragraphs.</dd>
+              <dt>Class</dt>
+              <dd>A CSS label used to apply styles selectively.</dd>
+              <dt>Viewport</dt>
+              <dd>The visible portion of your webpage on the screen.</dd>
+            </dl>
+          </div>
+        </div>
+
+        <!-- Tables -->
+        <div class="table-container">
+          <h3>Design Challenge Results</h3>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Participant</th>
+                <th>Creativity</th>
+                <th>Layout</th>
+                <th>Total</th>
+                <th>Rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Aria Lopez</td>
+                <td>92</td>
+                <td>88</td>
+                <td>180</td>
+                <td>Gold</td>
+              </tr>
+              <tr>
+                <td>Jackson Ray</td>
+                <td>85</td>
+                <td>90</td>
+                <td>175</td>
+                <td>Silver</td>
+              </tr>
+              <tr>
+                <td>Naomi Reed</td>
+                <td>89</td>
+                <td>84</td>
+                <td>173</td>
+                <td>Bronze</td>
+              </tr>
+              <tr>
+                <td>Leo Brooks</td>
+                <td>80</td>
+                <td>82</td>
+                <td>162</td>
+                <td>Finalist</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td><strong>Average</strong></td>
+                <td><strong>86.5</strong></td>
+                <td><strong>86</strong></td>
+                <td><strong>172.5</strong></td>
+                <td><strong>—</strong></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+
+      <!-- Interactive Elements -->
+      <section class="section">
+        <h2 class="section-title">Try It Yourself</h2>
+
+        <div class="interactive-container">
+          <div class="hover-demo">
+            <h3>Interactive Hover</h3>
+            <p>Hover over buttons and cards to test UI interactions.</p>
+            <button class="hover-button">Hover Over Me</button>
+            <div class="hover-card">
+              <h4>Surprise Reveal</h4>
+              <p>This element responds when you hover your cursor.</p>
+            </div>
+          </div>
+
+          <div class="responsive-demo">
+            <h3>Flexible Layout</h3>
+            <p>Experience how the layout changes responsively on different devices.</p>
+            <div class="responsive-grid">
+              <div class="grid-item">Block A</div>
+              <div class="grid-item">Block B</div>
+              <div class="grid-item">Block C</div>
+              <div class="grid-item">Block D</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Creative Design Studio. Crafted with code and creativity.</p>
+      <p>Keep experimenting. Keep innovating.</p>
+    </footer>
+  </body>
+</html>
